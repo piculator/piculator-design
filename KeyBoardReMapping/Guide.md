@@ -12,3 +12,19 @@ keycode 171 = End
 keycode 225 = Delete
 ```
 
+运行`xmodmap ~/.Xmodmap`
+
+---
+
+在`~/.xinitrc`中
+
+```
+if [ -f $HOME/.Xmodmap ]; then
+    /usr/bin/xmodmap $HOME/.Xmodmap
+fi
+```
+
+即可开机自动重映射
+
+
+

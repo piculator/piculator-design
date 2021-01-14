@@ -1,0 +1,5 @@
+keycode 122 = Page_Down
+keycode 123 = Page_Up
+keycode 173 = Home
+keycode 171 = End
+keycode 225 = Delete
