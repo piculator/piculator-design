@@ -16,7 +16,7 @@ keycode 225 = Delete
 
 ---
 
-在`~/.xinitrc`中
+在`~/.xinitrc中
 
 ```
 if [ -f $HOME/.Xmodmap ]; then
@@ -24,7 +24,9 @@ if [ -f $HOME/.Xmodmap ]; then
 fi
 ```
 
-即可开机自动重映射
+然后 `chmod +x ~/.xinitrc`、
 
+然后修改 /etc/xdg/lxsession/LXDE-pi/autostart
 
+添加一行`@bash /home/pi/.xinitrc`
 
