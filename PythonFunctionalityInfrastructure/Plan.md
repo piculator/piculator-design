@@ -17,3 +17,5 @@
     - Adafruit WebIDE
     - AlgoIDE
     - Ninja IDE
+    - Thonny
+    - IDLE
