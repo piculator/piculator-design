@@ -12,3 +12,8 @@
   - IPython Notebook
 - Native 方案
   - Native IDE
+    - Mu
+    - Geany
+    - Adafruit WebIDE
+    - AlgoIDE
+    - Ninja IDE
