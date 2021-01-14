@@ -1,15 +1,5 @@
 # 安装中文支持软件包
 
-From : [Raspbian系统中文化（中文支持、中文字体、中文输入法） · Raspberry Pi (gitbooks.io)](https://nintendoboy.gitbooks.io/raspberry-pi/content/raspbianxi-tong-zhong-wen-hua-ff08-zhong-wen-zhi-chi-3001-zhong-wen-zi-ti-3001-zhong-wen-shu-ru-fa-ff09.html)
-
-## 输入法
-
-```bash
-sudo apt -y install scim-pinyin
-```
-
-安装完后重启
-
 ## 中文字体
 
 ```bash
@@ -17,15 +7,41 @@ sudo apt -y install fonts-wqy-zenhei fonts-wqy-microhei
 sudo fc-cache
 ```
 
-## 设置系统语言为中文
+## 输入法
 
 ```bash
-sudo dpkg-reconfigure locales
-# 选择zh_CN.UTF-8 UTF-8
-# 选择方式是用上下方向键移动,按空格选中
-# 然后按TAB键 , 回车确定
-# 然后选 zh_CN.UTF-8
-# 然后按TAB键 , 回车确定
-# 重启系统生效
+sudo apt-get install fcitx fcitx-googlepinyin
+im-config
 ```
 
+![image-20210114192703875](ChineseSupport.assets/image-20210114192703875.png)
+
+![image-20210114192736843](ChineseSupport.assets/image-20210114192736843.png)
+
+![image-20210114192829395](ChineseSupport.assets/image-20210114192829395.png)
+
+然后OK,OK
+
+#### 输入法配置
+
+![image-20210114185044454](ChineseSupport.assets/image-20210114185044454.png)![image-20210114185230667](ChineseSupport.assets/image-20210114185230667.png)
+
+![image-20210114193035010](ChineseSupport.assets/image-20210114193035010.png)
+
+然后关闭窗口
+
+中文输入法配置完毕
+
+## 设置系统语言为中文
+
+![image-20210114172458403](ChineseSupport.assets/image-20210114172458403.png)
+
+![image-20210114172608858](ChineseSupport.assets/image-20210114172608858.png)
+
+![image-20210114172632843](ChineseSupport.assets/image-20210114172632843.png)
+
+然后点击确定， 并按指示重启
+
+
+
+如果调节为中文后界面仍为英文， 请按上述步骤将语言调节为英文，重启之后再调节为中文，然后再按指示重启系统。
