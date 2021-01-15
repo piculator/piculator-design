@@ -6,7 +6,7 @@
 
 ### 目录组织结构
 
-- Directory Root
+- /usr/share/piculator/static
   - package-name
     - folder
       - files
