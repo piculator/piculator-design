@@ -7,3 +7,9 @@
 ## 软件
 
 暂定Lsyncd
+安装：
+Https://www.kancloud.cn/hiyang/linux/390195
+Https://axkibe.github.io/lsyncd/
+Https://www.cnblogs.com/basa/p/11297415.html
+使用中遇到问题：
+Https://www.cnblogs.com/zxci/archive/2004/01/13/6445776.html
