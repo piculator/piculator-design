@@ -1,0 +1,9 @@
+[Unit]
+Description=Update the repo for raspberry pi.
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/start-update-rpi-repo-daemon.sh
+
+[Install]
+WantedBy=multi-user.target

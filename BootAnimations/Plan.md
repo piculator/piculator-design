@@ -8,3 +8,5 @@
 - https://florianmuller.com/polish-your-raspberry-pi-clean-boot-splash-screen-video-noconsole-zram
 - https://scribles.net/customizing-boot-up-screen-on-raspberry-pi/
 - https://raspberrypi.stackexchange.com/questions/1214/how-to-add-custom-loading-screen
+
+- http://blog.fraggod.net/2015/11/28/raspberry-pi-early-boot-splash-logo-screen.html
