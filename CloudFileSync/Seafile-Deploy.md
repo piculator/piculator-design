@@ -212,3 +212,14 @@ mkdir ~/.seaf-cli
 seaf-cli init -d ~/.seaf-cli
 ```
 
+```sh
+# 需要将下面一行添加到开机启动
+seaf-cli start
+```
+
+```sh
+# 同步文件夹
+mkdir -p ~/sync/USERNAME
+seaf-cli sync -l 3e026fc3-a821-4fcb-95d9-61a1ed7194f5 -s https://sync.kxxt.tech -d ~/sync/USERNAME -u USERNAME@sync.kxxt.tech  -p PASSWORD
+```
+
