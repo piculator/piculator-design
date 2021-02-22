@@ -6,6 +6,8 @@
 
 ## 软件
 
+## 确定使用 Seafile
+
 暂定Lsyncd
 安装：
 Https://www.kancloud.cn/hiyang/linux/390195
