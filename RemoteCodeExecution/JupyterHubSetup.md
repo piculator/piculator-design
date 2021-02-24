@@ -7,11 +7,11 @@
 - 部署 jupyterhub 到云端
 - 设置 jupyterhub 使用 DockerSpawner
 - 接入 sagemath
+- 存储可持久化
 
 ### 未完成
 
 - 写一个 OAuthenticator 来支持 Piculator 统一身份认证登录
-- 存储可持久化
 
 ## 环境信息
 
@@ -190,7 +190,12 @@ server
 c.Authenticator.admin_users = {'YOUR_USER_NAME'}
 ```
 
+### 可持久化
 
+```
+c.DockerSpawner.notebook_dir = '/home/sage/notebooks'
+c.DockerSpawner.volumes = { 'jupyterhub-user-{username}': '/home/sage/notebooks' }
+```
 
 ## 参考文档
 
